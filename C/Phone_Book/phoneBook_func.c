@@ -2,10 +2,10 @@
 
 void Add_user(PB_list* input, person temp)
 {
-	PB_list* p = (PB_list*)malloc(sizeof(PB_list)); // µ¥ÀÌÅÍ¸¦ ÀúÀåÇÒ ³ëµå¿¡ ¸Ş¸ğ¸® ÇÒ´ç
+	PB_list* p = (PB_list*)malloc(sizeof(PB_list)); // ë°ì´í„°ë¥¼ ì €ì¥í•  ë…¸ë“œì— ë©”ëª¨ë¦¬ í• ë‹¹
 
 
-	if (input->link == NULL) //Ã¹ µ¥ÀÌÅÍ »ğÀÔ
+	if (input->link == NULL) //ì²« ë°ì´í„° ì‚½ì…
 	{
 		if (check_form(temp))
 		{
@@ -14,27 +14,27 @@ void Add_user(PB_list* input, person temp)
 
 		else
 		{
-			strcpy(p->number, temp.input_number); //¹øÈ£ ÀÔ·Â
-			strcpy(p->name, temp.input_name); //ÀÌ¸§ ÀÔ·Â
-			p->link = input->link; //³ëµå ¿¬°á
+			strcpy(p->number, temp.input_number); //ë²ˆí˜¸ ì…ë ¥
+			strcpy(p->name, temp.input_name); //ì´ë¦„ ì…ë ¥
+			p->link = input->link; //ë…¸ë“œ ì—°ê²°
 			input->link = p;
 		}
 	}
 
 	else
 	{
-			if (check_form(temp) || check_dp(input, temp)) // Áßº¹Ã¼Å©ÇÔ¼ö : false (Áßº¹ ¾Æ´Ô) true (Áßº¹)  
+			if (check_form(temp) || check_dp(input, temp)) // ì¤‘ë³µì²´í¬í•¨ìˆ˜ : false (ì¤‘ë³µ ì•„ë‹˜) true (ì¤‘ë³µ)  
 			{
 				free(p);
 			}
 
 			else
 			{
-				strcpy(p->number, temp.input_number); //¹øÈ£ ÀÔ·Â
-				strcpy(p->name, temp.input_name); //ÀÌ¸§ ÀÔ·Â
-				p->link = input->link; //³ëµå ¿¬°á
+				strcpy(p->number, temp.input_number); //ë²ˆí˜¸ ì…ë ¥
+				strcpy(p->name, temp.input_name); //ì´ë¦„ ì…ë ¥
+				p->link = input->link; //ë…¸ë“œ ì—°ê²°
 				input->link = p;
-				sort_list(input); //Á¤·Ä
+				sort_list(input); //ì •ë ¬
 			}
 	}
 }
@@ -46,7 +46,7 @@ bool check_dp (PB_list* p, person temp)
 		{
 			if (strcmp(temp.input_name, dup->name) == 0 || strcmp(temp.input_number, dup->number) == 0)
 			{
-				printf("Áßº¹µÈ »ç¿ëÀÚ°¡ Á¸ÀçÇÕ´Ï´Ù.\n");
+				printf("ì¤‘ë³µëœ ì‚¬ìš©ìê°€ ì¡´ì¬í•©ë‹ˆë‹¤.\n");
 					return true;
 			}
 		}
@@ -61,7 +61,7 @@ bool check_form(person temp)
 		}
 		else
 		{
-			printf("11ÀÚ¸® ¹Ì¸¸ÀÇ ¹øÈ£´Â ÀÔ·ÂÇÒ ¼ö ¾ø½À´Ï´Ù.\n");
+			printf("11ìë¦¬ ë¯¸ë§Œì˜ ë²ˆí˜¸ëŠ” ì…ë ¥í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.\n");
 			return true;
 		}
 }
@@ -96,31 +96,31 @@ void Search_user(PB_list* head, person temp)
 	PB_list* search = head;
 	for (search; search != NULL; search = search->link)
 	{
-		if (strcmp(search->name, temp.input_name) == 0) //ÀúÀåµÈ ¸®½ºÆ®¿¡¼­ °°Àº ÀÌ¸§À» Ã£¾ÒÀ» ¶§
+		if (strcmp(search->name, temp.input_name) == 0) //ì €ì¥ëœ ë¦¬ìŠ¤íŠ¸ì—ì„œ ê°™ì€ ì´ë¦„ì„ ì°¾ì•˜ì„ ë•Œ
 		{
-			printf("%s »ç¿ëÀÚÀÇ ¹øÈ£´Â %sÀÔ´Ï´Ù.\n", temp.input_name, search->number);
+			printf("%s ì‚¬ìš©ìì˜ ë²ˆí˜¸ëŠ” %sì…ë‹ˆë‹¤.\n", temp.input_name, search->number);
 			user = true;
 		}
 
 		else if (strcmp(search->number, temp.input_number) == 0)
 		{
-			printf("%s ¹øÈ£´Â %s»ç¿ëÀÚÀÇ ¹øÈ£ ÀÔ´Ï´Ù.\n", temp.input_number, search->name);
+			printf("%s ë²ˆí˜¸ëŠ” %sì‚¬ìš©ìì˜ ë²ˆí˜¸ ì…ë‹ˆë‹¤.\n", temp.input_number, search->name);
 			user = true;
 		}
 	}
 	if (user != true)
 	{
-		printf("ÇØ´ç »ç¿ëÀÚ¸¦ Ã£Áö ¸øÇß½À´Ï´Ù.\n");
+		printf("í•´ë‹¹ ì‚¬ìš©ìë¥¼ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤.\n");
 	}
 }
 
 void print_Book(PB_list* head)
 {
 	PB_list* p = head->link;
-	for (p; p != NULL; p = p->link) //Çìµå ´ÙÀ½ ³ëµå¿¡¼­ Ãâ¹ßÇÏ¿© ºó ³ëµå°¡ ³ª¿Ã ¶§ ±îÁö ¹İº¹ÇÑ´Ù.
+	for (p; p != NULL; p = p->link) //í—¤ë“œ ë‹¤ìŒ ë…¸ë“œì—ì„œ ì¶œë°œí•˜ì—¬ ë¹ˆ ë…¸ë“œê°€ ë‚˜ì˜¬ ë•Œ ê¹Œì§€ ë°˜ë³µí•œë‹¤.
 	{
-		printf("ÀÌ¸§ : %s", p->name);
-		printf("\n¹øÈ£ : %s\n", p->number);
+		printf("ì´ë¦„ : %s", p->name);
+		printf("\në²ˆí˜¸ : %s\n", p->number);
 	}
 }
 
@@ -128,7 +128,7 @@ void print_Book(PB_list* head)
 void delete_user(PB_list* head, person temp)
 {
 	bool user = false;
-	if (head->link == NULL) //Ã¹ µ¥ÀÌÅÍ¿¡ °ªÀÌ ¾øÀ» °æ¿ì Á¾·á
+	if (head->link == NULL) //ì²« ë°ì´í„°ì— ê°’ì´ ì—†ì„ ê²½ìš° ì¢…ë£Œ
 	{
 		return;
 	}
@@ -136,11 +136,11 @@ void delete_user(PB_list* head, person temp)
 	PB_list* ptemp;
 	PB_list* remove;
 
-	if (strcmp(head->name, temp.input_name) == 0) //Ã¹ ³ëµå°¡ Áö¿ï °ªÀÏ ¶§
+	if (strcmp(head->name, temp.input_name) == 0) //ì²« ë…¸ë“œê°€ ì§€ìš¸ ê°’ì¼ ë•Œ
 	{
 		remove = head;
 		head = remove->link;
-		printf("»èÁ¦Çß½À´Ï´Ù.");
+		printf("ì‚­ì œí–ˆìŠµë‹ˆë‹¤.");
 		free(remove);
 		user = true;
 	}
@@ -148,22 +148,22 @@ void delete_user(PB_list* head, person temp)
 	{
 		ptemp = head;
 		remove = head->link;
-		if (strcmp(remove->name, temp.input_name) == 0) //ÀúÀåµÈ ¸®½ºÆ®¿¡¼­ °°Àº ÀÌ¸§À» Ã£¾ÒÀ» ¶§
+		if (strcmp(remove->name, temp.input_name) == 0) //ì €ì¥ëœ ë¦¬ìŠ¤íŠ¸ì—ì„œ ê°™ì€ ì´ë¦„ì„ ì°¾ì•˜ì„ ë•Œ
 		{
-			if (remove->link != NULL) //Áß°£°ª »èÁ¦
+			if (remove->link != NULL) //ì¤‘ê°„ê°’ ì‚­ì œ
 			{
 				ptemp = head;
 				ptemp->link = remove->link;
 				free(remove);
-				printf("»ç¿ëÀÚ¸¦ »èÁ¦Çß½À´Ï´Ù.\n");
+				printf("ì‚¬ìš©ìë¥¼ ì‚­ì œí–ˆìŠµë‹ˆë‹¤.\n");
 				user = true;
 				break;
 			}
-			else //¸¶Áö¸·°ª »èÁ¦
+			else //ë§ˆì§€ë§‰ê°’ ì‚­ì œ
 			{
 				ptemp->link = NULL;
 				free(remove);
-				printf("»ç¿ëÀÚ¸¦ »èÁ¦Çß½À´Ï´Ù.\n");
+				printf("ì‚¬ìš©ìë¥¼ ì‚­ì œí–ˆìŠµë‹ˆë‹¤.\n");
 				user = true;
 				break;
 			}
@@ -171,7 +171,7 @@ void delete_user(PB_list* head, person temp)
 	}
 	if (user != true)
 	{
-		printf("ÇØ´ç »ç¿ëÀÚ°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.\n");
+		printf("í•´ë‹¹ ì‚¬ìš©ìê°€ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.\n");
 	}
 }
 
@@ -185,65 +185,65 @@ void change_userinfo(PB_list* head, person temp)
 		if (strcmp(temp.input_name, head->name) == 0)
 		{
 			user = true;
-			printf("¼öÁ¤ÇÒ Á¤º¸¸¦ °ñ¶óÁÖ¼¼¿ä.\n");
-			printf("1. ÀÌ¸§ º¯°æ / 2. ¹øÈ£ º¯°æ / 3. ÀüÃ¼ º¯°æ\n");
+			printf("ìˆ˜ì •í•  ì •ë³´ë¥¼ ê³¨ë¼ì£¼ì„¸ìš”.\n");
+			printf("1. ì´ë¦„ ë³€ê²½ / 2. ë²ˆí˜¸ ë³€ê²½ / 3. ì „ì²´ ë³€ê²½\n");
 			scanf("%d", &select);
 			switch (select)
 			{
 			case 1:
 			{
-				printf("¼öÁ¤ÇÒ ÀÌ¸§À» ÀÔ·ÂÇØÁÖ¼¼¿ä.\n");
-				printf("ÀÌ¸§ >>");
+				printf("ìˆ˜ì •í•  ì´ë¦„ì„ ì…ë ¥í•´ì£¼ì„¸ìš”.\n");
+				printf("ì´ë¦„ >>");
 				scanf("%s", temp.input_name);
 				if (check_dp(head, temp)) {}
 				else
 				{
 				strcpy(head->name, temp.input_name);
-				printf("ÀÌ¸§ º¯°æÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.\n");
+				printf("ì´ë¦„ ë³€ê²½ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.\n");
 				sort_list(head);
 				}
 				break;
 			}
 			case 2 :
 			{
-				printf("¼öÁ¤ÇÒ ¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.\n");
-				printf("¹øÈ£ >>");
+				printf("ìˆ˜ì •í•  ë²ˆí˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.\n");
+				printf("ë²ˆí˜¸ >>");
 				scanf("%s", temp.input_number);
 				if (check_form(temp)) {}
 				else
 				{
 					strcpy(head->number, temp.input_number);
-					printf("¹øÈ£ º¯°æÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.\n");
+					printf("ë²ˆí˜¸ ë³€ê²½ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.\n");
 				}
 				break;
 			}
 			case 3 :
 			{
-				printf("¼öÁ¤ÇÒ ÀÌ¸§°ú ¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.\n");
-				printf("ÀÌ¸§ >>");
+				printf("ìˆ˜ì •í•  ì´ë¦„ê³¼ ë²ˆí˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.\n");
+				printf("ì´ë¦„ >>");
 				scanf("%s", temp.input_name);
-				printf("¹øÈ£ >>");
+				printf("ë²ˆí˜¸ >>");
 				scanf("%s", temp.input_number);
 				if (check_form(temp) || check_dp(head, temp)) {}
 				else
 				{
 					strcpy(head->name, temp.input_name);
 					strcpy(head->number, temp.input_number);
-					printf("ÀüÃ¼ º¯°æÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.\n");
+					printf("ì „ì²´ ë³€ê²½ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.\n");
 					sort_list(head);
 				}
 				break;
 			}
 			default:
-				scanf("%*c", &select); //ÀÔ·Â¹öÆÛ ÃÊ±âÈ­
-				printf("Àß¸øµÈ ÀÔ·ÂÀÔ´Ï´Ù. ´Ù½Ã ¼±ÅÃÇØÁÖ½Ê½Ã¿À.\n");
+				scanf("%*c", &select); //ì…ë ¥ë²„í¼ ì´ˆê¸°í™”
+				printf("ì˜ëª»ëœ ì…ë ¥ì…ë‹ˆë‹¤. ë‹¤ì‹œ ì„ íƒí•´ì£¼ì‹­ì‹œì˜¤.\n");
 				break;
 			}
 		}
 	}
 	if (user != true)
 	{
-		printf("ÇØ´ç »ç¿ëÀÚ°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.\n");
+		printf("í•´ë‹¹ ì‚¬ìš©ìê°€ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.\n");
 	}
 }
 
