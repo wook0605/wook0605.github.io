@@ -32,8 +32,6 @@ Cras fermentum nibh quis nisl imperdiet ornare. Sed nisi nunc, dictum sit amet g
 2. Cum sociis natoque penatibus.
 3. Maecenas sed diam eget risus.
 
-![Large example image](http://placehold.it/800x400 "Large example image")
-
 Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ``` javascript
