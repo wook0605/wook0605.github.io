@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Example content"
+title:  "Click here! More Info About ME! "
 date:   2019-11-22 08:43:00 -0500
 comments: true
 categories: jekyll
