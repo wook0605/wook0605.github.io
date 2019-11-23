@@ -6,28 +6,17 @@ comments: true
 categories: jekyll
 ---
 
-Morbi ultrices libero imperdiet [lectus](#) dignissim, sit amet bibendum nisl consectetur. Morbi erat purus, pretium at ligula tincidunt, faucibus commodo sem. Etiam vel porttitor est, vitae maximus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien turpis, cursus non porta ac.
+## I can using this Language
+C, C++, JAVA but, C language is more better then C++, JAVA.
 
-## Lorem
-Quisque sodales euismod nibh, gravida venenatis nibh dignissim eget. Morbi gravida enim vel lectus aliquet aliquet.
+### My project
+C language : Phone_Book, Video_Store
+C++ language : Phone_Book, Matrix solving
 
-### Ipsum
-Nunc nec aliquam tellus. Etiam faucibus magna nibh, ut fermentum velit consectetur id. Nullam vehicula iaculis tortor, in cursus enim auctor vitae. Duis semper pulvinar justo, at vestibulum dolor. Cras fermentum nibh quis nisl imperdiet ornare. Sed nisi nunc, dictum sit amet gravida in, finibus rhoncus orci. Donec scelerisque commodo turpis ac venenatis.
+## C project link
+C/ Phone_Book link : https://github.com/wook0605/wook0605.github.io/tree/master/C/Phone_Book
+C/ Video_Store link : https://github.com/wook0605/wook0605.github.io/tree/master/C/Video_Store
 
-## Dugem
-Nullam vehicula iaculis tortor, in cursus enim auctor vitae. Duis semper pulvinar justo, at vestibulum dolor. Cras fermentum nibh quis nisl imperdiet ornare. Sed nisi nunc, dictum sit amet gravida in, finibus rhoncus orci. Donec scelerisque commodo turpis ac venenatis.
-
-> Nam vitae commodo ex. Nunc vel tellus leo.
-
-### Golem
-Quisque sodales euismod nibh, gravida venenatis nibh dignissim eget. Morbi gravida enim vel lectus aliquet aliquet.
-
-* Praesent commodo cursus magna.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Cras fermentum nibh quis nisl imperdiet ornare. Sed nisi nunc, dictum sit amet gravida in, finibus rhoncus orci. Donec scelerisque commodo turpis ac venenatis.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus.
-3. Maecenas sed diam eget risus.
+## C++ project link
+C++/Phone_Book link : https://github.com/wook0605/wook0605.github.io/tree/master/C%2B%2B/Phone_Book
+C++/Matrix Solving link : https://github.com/wook0605/wook0605.github.io/tree/master/C%2B%2B/Matrix
