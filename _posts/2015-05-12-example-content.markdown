@@ -14,7 +14,7 @@ C language : Phone_Book, Video_Store
 C++ language : Phone_Book, Matrix solving
 
 ## C project link
-C/ Phone_Book link : https://github.com/wook0605/wook0605.github.io/tree/master/C/Phone_Book
+C/ Phone_Book link :<a href="https://github.com/wook0605/wook0605.github.io/tree/master/C/Phone_Book">Label</a>
 
 C/ Video_Store link : https://github.com/wook0605/wook0605.github.io/tree/master/C/Video_Store
 
