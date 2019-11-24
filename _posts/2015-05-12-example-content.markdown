@@ -9,7 +9,7 @@ categories: jekyll
 ## Available Language
 C, C++, JAVA but, C language is more better then C++, JAVA.
 
-## Career
+## My Program
 C language : Phone_Book, Video_Store"<br>C++ language : Phone_Book, Matrix solving
 
 ## C project link
@@ -24,3 +24,5 @@ about first Interest thing is FTL algorithm. because recently, im studying FTL a
 
 ## Future job.
 i wanna be software developer or R&D for FTL algorithm.
+
+## Career
