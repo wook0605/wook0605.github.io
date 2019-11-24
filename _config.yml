@@ -5,7 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://wook0605.github.io" # the base hostname & protocol for your site
 
 # Sidebar settings
-description: KangWon National University Student, Majoring Computer Engineering.
+description: KiWook Lee, a student of KangWon National University, Majoring Computer Engineering.
 
 # Social icons
 facebook: /cjsworldnr
