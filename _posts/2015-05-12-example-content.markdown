@@ -10,7 +10,7 @@ categories: jekyll
 C, C++, JAVA but, C language is more better then C++, JAVA.
 
 ## My Program
-C language : Phone_Book, Video_Store"<br>C++ language : Phone_Book, Matrix solving
+C language : Phone_Book, Video_Store<br>C++ language : Phone_Book, Matrix solving
 
 ## C project link
 C/ Phone_Book link :<a href="https://github.com/wook0605/wook0605.github.io/tree/master/C/Phone_Book">C Phone_Book Code_link</a><br>C/ Video_Store link : <a href="https://github.com/wook0605/wook0605.github.io/tree/master/C/Video_Store">C Video_Store Code_link</a>
