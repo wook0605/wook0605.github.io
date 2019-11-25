@@ -23,3 +23,4 @@ In fact, i have no dreams for future job. but now, i have a Interest things. tha
 about first Interest thing is FTL algorithm. because recently, im studying FTL algorithm with professor. that is very difficult, but im trying to learn.<br> the next interest Thing is AI, after i using BIXBY. because that is very useful in a everyday life, and this tech have very big development potential as everyone knows.
 
 ## Career
+preparing~
