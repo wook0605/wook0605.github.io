@@ -1,29 +1,36 @@
 ---
 layout: post
-title:  "Click here! More Info About ME! "
+title:  "자기소개"
 date:   2019-11-22 08:43:00 -0500
 comments: true
 categories: jekyll
 ---
 
-## Available Language
+## 자기소개
+이름 : 이기욱
+생년월일 : 1996.06.05
+고향 : 인천
+학교 : 강원대학교 삼척캠퍼스
+전공 : 컴퓨터 공학
+군 경력 : 2017.04.04 ~ 2018.12.27 3보급단 통신병으로 병장 만기전역.
+
+## 사용가능한 언어
 C<br>
 C++<br>
 Java<br>
-OpenGL(Learning)<br>
+OpenGL(배우는중)<br>
 
-## My Program
-C language : Phone_Book, Video_Store<br>C++ language : Phone_Book, Matrix solving
+## 내가 만든 프로그램
+C : Phone_Book, Video_Store<br>C++ : Phone_Book, Matrix solving
 
-## C project link
+## C 프로그램 코드 링크
 C/ Phone_Book link :<a href="https://github.com/wook0605/wook0605.github.io/tree/master/C/Phone_Book">C Phone_Book Code_link</a><br>C/ Video_Store link : <a href="https://github.com/wook0605/wook0605.github.io/tree/master/C/Video_Store">C Video_Store Code_link</a>
  
-## C++ project link
+## C++ 프로그램 코드 링크
 C++/Phone_Book link :  <a href="https://github.com/wook0605/wook0605.github.io/tree/master/C%2B%2B/Phone_Book">C++ Phone_Book Code_link</a><br>C++/Matrix Solving link : <a href="https://github.com/wook0605/wook0605.github.io/tree/master/C%2B%2B/Matrix">C++ Matrix Code_link</a>
 
-## My Interest Things.
-In fact, i have no dreams for future job. but now, i have a Interest things. that is Artificial intelligence(AI) and FTL algorithm.<br>
-about first Interest thing is FTL algorithm. because recently, im studying FTL algorithm with professor. that is very difficult, but im trying to learn.<br> the next interest Thing is AI, after i using BIXBY. because that is very useful in a everyday life, and this tech have very big development potential as everyone knows.
+## 관심사
+나의 관심사는 FTL(File Translation Layer) 과 AI이다. 현재 지도교수님을 따라서 FTL을 공부하고 있기 때문에 가장 큰 관심사는 FTL이다. AI는 가끔 인터넷에서 정보를 찾아보는 정도로 관심을 가지고 있다. AI에 관심을 가지게 된 이유는, 군 복무중 읽었던 책도 있지만, 삼성 빅스비를 통해 실제로 AI를 사용해 보면서 생겨났다. 현재로서도 실생활에 큰 도움이 되는데, 해당 기술이 더 발전하면 얼마나 큰 도움을 줄 지 기대되기 때문이다.
 
-## Career
-preparing~
+## 경력
+준비중..
