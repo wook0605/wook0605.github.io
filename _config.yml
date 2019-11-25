@@ -5,7 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://wook0605.github.io" # the base hostname & protocol for your site
 
 # Sidebar settings
-description: 강원대학교 삼척캠퍼스 에서 컴퓨터공학을 전공중임.
+description: KiWook Lee, a student of KangWon National University, Majoring Computer Engineering.
 
 # Social icons
 facebook: /cjsworldnr
