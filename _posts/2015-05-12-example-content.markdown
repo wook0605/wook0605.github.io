@@ -7,7 +7,10 @@ categories: jekyll
 ---
 
 ## Available Language
-C, C++, JAVA but, C language is more better then C++, JAVA.
+C<br>
+C++<br>
+Java<br>
+OpenGL(Learning)<br>
 
 ## My Program
 C language : Phone_Book, Video_Store<br>C++ language : Phone_Book, Matrix solving
