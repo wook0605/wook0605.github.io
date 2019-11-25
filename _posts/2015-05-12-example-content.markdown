@@ -30,7 +30,7 @@ C/ Phone_Book link :<a href="https://github.com/wook0605/wook0605.github.io/tree
 C++/Phone_Book link :  <a href="https://github.com/wook0605/wook0605.github.io/tree/master/C%2B%2B/Phone_Book">C++ Phone_Book Code_link</a><br>C++/Matrix Solving link : <a href="https://github.com/wook0605/wook0605.github.io/tree/master/C%2B%2B/Matrix">C++ Matrix Code_link</a>
 
 ## 관심사
-나의 관심사는 FTL(File Translation Layer) 과 AI이다. 현재 가장 큰 관심사는 FTL이다.&nbsp;지도교수님을 따라서 FTL을 공부하고 있다.&nbsp;좀 어렵긴 하지만 흥미가 있어서 나름 열심히 하며 따라가고 있다.<br>다음 관심사는 AI인데,&nbsp;가끔 인터넷에서 정보를 찾아보는 정도로 관심을 가지고 있다.&nbsp;AI에 관심을 가지게 된 이유는,<br> 군 복무 중에 읽었던 인공지능에 관련된 책 내용 덕분에 흥미가 생겼고,&nbsp;삼성 빅스비를 통해 실제로 AI를 사용해 보니, 현재 상태로도 실생활에 상당히 도움이 되는데, 이 기술이 더 발전하면 정말 공상과학 영화 속 장면을 구현할 수 있을 것 같다는<br> 큰 기대감을 가지고 있다.
+나의 관심사는 FTL(File Translation Layer) 과 AI이다. 현재 가장 큰 관심사는 FTL이다.&nbsp;지도교수님을 따라서 FTL을 공부하고 있다.&nbsp;좀 어렵긴 하지만 흥미가 있어서 나름 열심히 하며 따라가고 있다.<br>다음 관심사는 AI인데,&nbsp;가끔 인터넷에서 정보를 찾아보는 정도로 관심을 가지고 있다.&nbsp;AI에 관심을 가지게 된 이유는,<br> 군 복무 중에 읽었던 인공지능에 관련된 책 내용 덕분에 흥미가 생겼고,&nbsp;삼성 빅스비를 통해 실제로 AI를 사용해 보니,<br> 현재 상태로도 실생활에 상당히 도움이 되는데, 이 기술이 더 발전하면 정말 공상과학 영화 속 장면을 구현할 수 있을 것 같다는<br> 큰 기대감을 가지고 있다.
 
 ## 경력
 준비중..
