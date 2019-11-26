@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "자기소개"
+title:  "Introducing my self."
 date:   2019-11-22 08:43:00 -0500
 comments: true
 categories: jekyll
